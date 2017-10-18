@@ -4,12 +4,13 @@
 github"""
 
 def main():
-  print("Woohoo here we go!")
-  movie = input("Please enter in your favorite movie!: ")
-  if movie == "Red":
-    print("You have selected an excellent film!")
+    print("Woohoo here we go!")
+    movie = input("Please enter in your favorite movie!: ")
+    if movie == "Red":
+        print("You have selected an excellent film!")
     else:
-    print("Your selection is not the best.")
+        print("Your selection is not the best.")
+
 
 if __name__ == "__main__":
-  main()
+    main()
