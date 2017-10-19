@@ -5,7 +5,12 @@ github"""
 
 def main():
 
-
+    inapprnames = ["Booger", "PototaHead", "L33tskillz", "Camp"]
+    fname = input("Please enter in your first name: ")
+    lname = input("Please enter in your last name:")
+    usrname = input("Please enter in your 'appropiate' username: ")
+    while usrname == inapprnames():
+        usrname = input("Inappropiate name. \n Choose another: ")
     setpass = input("Please create your password")
     password = input("Please enter in your password: ")
 
